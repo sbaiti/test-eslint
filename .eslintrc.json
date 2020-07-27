@@ -4,7 +4,11 @@
         "es6": true,
         "jest": true
     },
-    "extends": ["airbnb", "prettier", "prettier/react"],
+    "extends": [
+        "airbnb",
+        "prettier",
+        "prettier/react"
+    ],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly",
@@ -23,7 +27,10 @@
         "ecmaVersion": 2018,
         "sourceType": "module"
     },
-    "plugins": ["react", "prettier"],
+    "plugins": [
+        "react",
+        "prettier"
+    ],
     "rules": {
         "react/forbid-prop-types": "off",
         "no-nested-ternary": "off",
@@ -31,7 +38,10 @@
         "react/jsx-filename-extension": [
             1,
             {
-                "extensions": [".js", ".jsx"]
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
             }
         ],
         "no-console": "off",
@@ -39,7 +49,9 @@
             2,
             {
                 "required": {
-                    "every": ["id"]
+                    "every": [
+                        "id"
+                    ]
                 }
             }
         ],
