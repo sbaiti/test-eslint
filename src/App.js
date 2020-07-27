@@ -5,11 +5,13 @@ export default class extends React.Component{
   constructor(props){
     super(props);
     this.state={
-      name="sbaiti"
+      name:"sbaiti"
     }
   }
   render(){
     console.log(this.state.name);
+    console.log(this.state.name);
+
   return (
     <div className="App">
     </div>
